@@ -1,0 +1,243 @@
+h1 {
+    color: red;
+}
+
+.background-color {
+    background-color: rgb(204, 238, 15);
+    height: 200px;
+    width: 100%;
+}
+
+.width200 {
+    width: 200px;
+    height: 200px;
+}
+
+.backgroound-imgae {
+    background-image: url(https://scontent.futp1-2.fna.fbcdn.net/v/t39.30808-6/454449182_1232522581055796_6688409676539847173_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG74gTSMwnJHxdKWhPJ62ndyQjTZrzbmHHJCNNmvNuYcWAbZ-axBEi50dX1xh4DWYVGlkE4Szv_2pFn264CnK5z&_nc_ohc=H3DKIsbnvpwQ7kNvgEMt2o-&_nc_ht=scontent.futp1-2.fna&oh=00_AYDJBtXIjk_qwf0j8XIfwI0sjMipAirjZ5tlJuP2QqL1Ww&oe=66BB7E3C);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 500px
+}
+
+.border {
+    border: 10px dashed red;
+    border: 10px dotted red;
+    border: 10px dashed red;
+    border-bottom: 5px solid blue;
+    border-left: dotted green;
+
+}
+
+.margin {
+    margin: 50px;
+    background-color: rgb(209, 85, 85);
+}
+
+.padding {
+    padding: 50px;
+    background-color: rgb(209, 34, 165);
+}
+
+.mixed {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin: 50px;
+    border: 10px solid red;
+}
+
+.outline {
+    outline: 15px solid green;
+    outline-offset: 15px;
+    margin: 30px;
+}
+
+.text {
+    margin: 100px;
+}
+
+.text p {
+    text-align: center;
+    /*text-align: justify;*/
+}
+
+.text .left {
+    text-align: left;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.text .right {
+    text-align: right;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+.text .indent {
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 20px;
+    text-shadow: 5px 5px 10px blue;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font :nth-child(2) {
+    font-family: itim;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.icon :nth-child(1) {
+    color: red;
+    font-size: 50px;
+}
+
+.link a:link {
+    color: red;
+}
+
+.link a:visited {
+    color: blue;
+}
+
+.link a:active {
+    color: green;
+}
+
+.link a:hover {
+    color: orange;
+}
+
+.list ul {
+    list-style-type: disc;
+    background: cyan;
+}
+
+.list ul li {
+    list-style-position: outside;
+    background-color: grey;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.display p:first-child {
+    display: none;
+}
+
+.display p:nth-child(2) {
+    display: block;
+}
+
+.display p:nth-child(3) {
+    display: inline;
+}
+
+.display p:nth-child(4) {
+    display: inline;
+}
+
+.display div {
+    display: inline-block;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.flex .flex-item:first-child {
+    flex: 2;
+    margin: 5px;
+    height: 5px;
+    background-color: rgb(211, 4, 38);
+    width: 300px;
+    flex-direction: row;
+
+}
+
+.flex .flex-item {
+    flex: 1;
+    margin: 5px;
+    height: 300px;
+    background-color: pink;
+}
+
+.postion {
+    position: relative;
+}
+
+.postion div:first-child {
+    position: static;
+}
+
+.postion div:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.postion div:nth-child(3) {
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.postion div:nth-child(4) {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.postion div:nth-child(5) {
+    position: sticky;
+    top: 10px;
+}
+
+.overflow {
+    overflow: auto;
+    height: 300px;
+}
+
+.overflow .box {
+    height: 1000px;
+    background-color: blueviolet;
+}
+
+.float { overflow: auto; }
+
+.float .left {
+    float: left;
+    background-color: rgb(28, 241, 8);
+    width: 100px;
+    height: 100px;
+}
+
+.float .right {
+    float: right;
+    background-color: khaki;
+    width: 100px;
+    height: 100px;
+}
+
+.float .normal{
+    background-color: rgb(223, 48, 4);
+    width: 100px;
+    height: 100px;
+}
