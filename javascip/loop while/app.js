@@ -1,3 +1,3 @@
-while(prompt("ถ้าพิมพ์ exit") !="exit")
-{document.getElementById("result").innerHTML += "ถ้าพิมพ์ exit" + "<br>"
+while(prompt("Type 'exit' to close this window") !="exit")
+{document.getElementById("result").innerHTML += "Type 'exit' to close this window" + "<br>"
 }

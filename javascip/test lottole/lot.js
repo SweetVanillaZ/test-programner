@@ -1,8 +1,8 @@
-let lot = prompt("กรอกเลข")
+let lot = prompt("Input a number")
 let ran = Math.floor(Math.random() * 1000)
 document.getElementById("random").innerHTML = ran
 if (lot == ran) {
-    document.getElementById("result").innerHTML = "ยินดีด้วย"
+    document.getElementById("result").innerHTML = "Won the prize"
     
 }
-else { document.getElementById("result").innerHTML = "เสียใจด้วย" }
+else { document.getElementById("result").innerHTML = "Did not win the prize" }
